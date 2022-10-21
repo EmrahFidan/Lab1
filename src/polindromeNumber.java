@@ -34,6 +34,14 @@ public class polindromeNumber {
 						counter += 1;
 					}
 				}
+				counter = counter / 2; // polynthrome numbers don't have to be double digits
+				if (counter == arr.length / 2) {
+					System.out.println(number + " is a polindrome!!!");
+					System.out.print("\n");
+				} else {
+					System.out.println(number + " is not a polindrome.");
+					System.out.print("\n");
+				}
 			}
 
 	}
