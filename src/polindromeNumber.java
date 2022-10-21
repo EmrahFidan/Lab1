@@ -8,7 +8,7 @@ public class polindromeNumber {
 
 			Scanner value = new Scanner(System.in); 
 			System.out.println("write -1 to quit");
-			System.out.print("Enter a 7-digit number:");
+			System.out.print("Enter a number:");
 			int n = value.nextInt();
 
 			int remainder;
