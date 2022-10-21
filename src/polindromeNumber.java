@@ -9,6 +9,14 @@ public class polindromeNumber {
 		System.out.print("Enter a 7-digit number:");
 		int n = value.nextInt();
 
+		int remainder;
+		int number = n;
+
+		String n2 = number + ""; // to find the number of elements in the series
+		int[] arr = new int[n2.length()]; // to find out how many elements my know contains
+
+		
+
 	}
 
 }
