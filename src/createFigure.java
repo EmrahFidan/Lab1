@@ -34,6 +34,43 @@ public class createFigure {
 				}
 				System.out.println(); // satır atlamak için
 			}
+			if (n % 2 == 0) { // tek-çift kontrolü (çift olma durumu)
+				space -= 1;
+				for (int i = 2; i <= n; i = i + 2) {
 
+					for (int j = 0; j < space; j++) {
+
+						System.out.print(" ");
+					}
+
+					space -= 1;
+
+					for (int j = 0; j < i; j++) {
+
+						System.out.print("*");
+
+					}
+					System.out.println(); 
+				}
+			} else { // tek olma durumu
+				space -= 2;
+				for (int i = 3; i <= n; i = i + 2) {
+
+					for (int j = 0; j < space; j++) {
+
+						System.out.print(" ");
+					}
+
+					space -= 1;
+
+					for (int j = 0; j < i; j++) {
+
+						System.out.print("*");
+
+					}
+					System.out.println();
+				}
+			}
+		}
 	}
 }
