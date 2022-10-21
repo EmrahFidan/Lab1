@@ -11,8 +11,10 @@ public class createFigure {
 
 		System.out.println("Value:"+ number);
 		System.out.println("----------------");
-		
 
+		if (number.equals("q")) {
+			System.out.println("Program is terminating");
+			break;
 	}
 
 }
